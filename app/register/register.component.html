@@ -1,0 +1,43 @@
+<div class="jumbotron" >
+    <div class=" table table-bordered bg-dark text-danger"  >
+        <form [formGroup] = "form" (ngSubmit) = "register()">
+            <div>
+                <label>User Name</label>
+                <input type="text" placeholder="Enter your fullname"
+                formControlName = "student_name" />
+            </div>
+            <div>
+                <label>User Email</label>
+                <input type="text" placeholder="Enter your correct Email ID"
+                formControlName = "student_email" />
+            </div>
+            <div>
+                <label>User Age</label>
+                <input type="text" placeholder="Enter Age"
+                formControlName = "student_age" />
+            </div>
+            
+            <div>
+                &nbsp;&nbsp;&nbsp;
+                <button type="submit" class="btn btn-success">Register</button> &nbsp;&nbsp;&nbsp;
+                <button type="reset" class="btn btn-danger">Clear Form</button>
+            </div>
+        </form>
+    </div>
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <tr>
+                <th> User Name </th>
+                <th> User Email </th>
+                <th> User Age </th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor = "let u of user">
+                <td>{{u.user_name}}</td>
+                <td>{{u.user_email}}</td>
+                <td>{{u.user_age}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

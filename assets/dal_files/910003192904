@@ -1,0 +1,94 @@
+<!DOCTYPE html><html lang="en" data-appversion="v999"><head><script type="application/ld+json">{
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://groceries.asda.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://groceries.asda.com/search/{search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }</script><script>var performance_standalone = 'https://www.gstatic.com/firebasejs/7.17.2/firebase-performance-standalone.js'
+    var firebaseConfig
+    if (location.host === 'groceries.asda.com') {
+      firebaseConfig = {
+        apiKey: 'AIzaSyAOQBkGSppLN_LEiyD5sUokU-JBN43wOks',
+        authDomain: 'asda-web-prod.firebaseapp.com',
+        databaseURL: 'https://asda-web-prod.firebaseio.com',
+        projectId: 'asda-web-prod',
+        storageBucket: 'asda-web-prod.appspot.com',
+        messagingSenderId: '396075037548',
+        appId: '1:396075037548:web:49e7cd01fdc8cbcaddf949',
+      }
+    } else {
+      firebaseConfig = {
+        apiKey: 'AIzaSyCn7yms_x8kJHfrwI-qZFZfCPZIOkMmelU',
+        authDomain: 'asda-web-qa.firebaseapp.com',
+        databaseURL: 'https://asda-web-qa.firebaseio.com',
+        projectId: 'asda-web-qa',
+        storageBucket: 'asda-web-qa.appspot.com',
+        messagingSenderId: '992260114246',
+        appId: '1:992260114246:web:248a7684232e2cdf340747',
+      }
+    }
+
+    (function (sa, fbc) {
+        function load(f, c) {
+          var a = document.createElement('script');
+          a.async = 1; a.src = f; var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(a, s);
+        } load(sa);
+        window.addEventListener('load', function () { firebase.initializeApp(fbc).performance() });
+    })(performance_standalone, firebaseConfig);</script><script>(function(w,d,s) {
+          var host = location.host;
+          var prodScript = "https://cdn.cookielaw.org/consent/e1a8b4a2-c1e9-45c9-a58d-ba4dd0578b24.js"
+          var stageScript = "https://optanon.blob.core.windows.net/consent/e1a8b4a2-c1e9-45c9-a58d-ba4dd0578b24-test.js";
+          var source = host === 'groceries.asda.com' ? prodScript : stageScript;
+          var f=d.getElementsByTagName(s)[0],j=d.createElement(s);
+          j.async=true;
+          j.type="text/javascript";
+          j.charset='UTF-8';
+          j.src=source;
+          f.parentNode.insertBefore(j,f);
+        })(window,document,'script');</script><script>function OptanonWrapper() {
+        var b = document.getElementsByClassName("optanon-alert-box-wrapper")[0];
+        var h= document.querySelector(".header");
+        if (document.cookie.indexOf('OptanonAlertBoxClosed') === -1) {
+          h && h.setAttribute("data-apply-onetrust", "true");
+          var e = new CustomEvent('OTBannerDisplayed');
+          var el = document.querySelector(".accept-cookies-button");
+          el.addEventListener("click", function(){
+           setTimeout(function(){h && h.setAttribute("data-apply-onetrust", "false")}, 250)
+          });
+          if(window.co && window.co.analyticsData) {
+            window.dispatchEvent(e);
+            return false
+          }
+          window.addEventListener('triggerSignal', function () {
+            if(window.isBannerShown) return false;
+            window.dispatchEvent(e);
+            window.isBannerShown = true;
+          });
+        }
+ }</script><script>(function(w,d,s,l,i) {
+      w[l]=w[l]||[];
+      w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+      var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+      j.async=true;
+      j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+      f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MDCJ74D');</script><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><link href="//dynamic.criteo.com" rel="dns-prefetch"/><title>Online Food Shopping - ASDA Groceries</title><meta name="description" content="Shop online at ASDA Groceries Home Shopping. The same great prices as in store, delivered to your door with free click and collect!" data-react-helmet="true"/><meta name="distribution" content="global"/><meta name="rating" content="general"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/><link rel="icon" sizes="192x192" href="/browse_app_assets/icons/icon_192x192.png"/><link rel="apple-touch-icon" href="/browse_app_assets/icons/ios/icon_192x192.png"/><meta name="google-site-verification" content="Qqw7MCGPTZDyFLQni1CsSwXSAU2d5i_vuKk9EYhYUuQ"/><meta http-equiv="x-dns-prefetch-control" content="on"/><link rel="dns-prefetch" href="bam.nr-data.net.com"/><link rel="dns-prefetch" href="//ui2.assets-asda.com"/><link rel="dns-prefetch" href="//ui1.assets-asda.com"/><link rel="dns-prefetch" href="//ui3.assets-asda.com"/><link rel="dns-prefetch" href="i.groceries.asda.com"/><link rel="dns-prefetch" href="beacon.groceries.asda.com"/><link rel="dns-prefetch" href="b.wal.co"/><link rel="dns-prefetch" href="omniture.groceries.asda.com"/><link rel="dns-prefetch" href="servedby.flashtalking.com"/><link rel="dns-prefetch" href="b.criteo.com"/><link rel="dns-prefetch" href="cdn.decibelinsight.net"/><link rel="dns-prefetch" href="https://b.hlserve.com"/><link rel="dns-prefetch" href="https://www.hlserve.com"/><link rel="dns-prefetch" href="https://sslwidget.criteo.com"/><link rel="dns-prefetch" href="https://widget.eu.criteo.com"/><link rel="dns-prefetch" href="https://rscdn.storetail.net"/><link rel="dns-prefetch" href="https://static.criteo.net"/><link rel="dns-prefetch" href="https://gum.criteo.com"/><link rel="dns-prefetch" href="https://s.thebrighttag.com"/><link rel="dns-prefetch" href="https://s7d1.scene7.com/s7viewers/html5/js/FlyoutViewer.js"/><link rel="preload" src="/browse_app_assets/js/bundle.runtime.6c7448709662f7daf558.js" as="script"/><link rel="preload" src="/browse_app_assets/js/bundle.vendor.1d5484a1072f8fd77e3f.js" as="script"/><link rel="preload" src="/browse_app_assets/js/bundle.app.27956c24f999321bf42f.js" as="script"/><link rel="preload" src="/browse_app_assets/css/styles.app.27956c24f999321bf42f.css" as="style"/><script defer="defer" src="/browse_app_assets/js/bundle.runtime.6c7448709662f7daf558.js"></script><script defer="defer" src="/browse_app_assets/js/bundle.vendor.1d5484a1072f8fd77e3f.js"></script><script defer="defer" src="/browse_app_assets/js/bundle.app.27956c24f999321bf42f.js"></script><link href="/browse_app_assets/css/styles.app.27956c24f999321bf42f.css" rel="stylesheet"/></head><body><!--[if lte IE 10]>
+  <p style="background: rgba(247,204,0,.1); margin: 0; padding: 16px;">
+    You are using an <strong>outdated</strong> browser.
+    Please upgrade your browser
+    to improve your experience and security.
+  </p>
+  <![endif]--><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDCJ74D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="root"><main><header class="loading__header"><div class="loading__header-wrapper"><span class="loading__logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113 34"><path fill="#68A51C" fill-rule="evenodd" d="M101.698 2.012H90.337l-6.479 18.752c.29-1.557.341-2.802.341-3.343 0-7.856-4.501-15.409-15.076-15.409H56.978l.036 18.653c-1.05-5.3-5.892-6.72-11.913-8.55-2.25-.693-3.486-1.794-3.035-2.82.385-.896 1.765-1.177 3.44-.946 2.554.366 4.594 1.22 6.558 2.289l2.684-6.651c-.605-.299-4.954-2.909-10.404-2.909-7.6 0-12.454 3.708-12.454 9.18 0 4.876 3.003 7.711 8.525 9.3 5.939 1.723 7.445 2.416 7.266 4.124-.154 1.472-3.835 3.265-12.841-2.276l-2.676 5.537-8.26-24.93H12.547L1.814 33.003h8.952L12.5 28H23l1.784 5.004h9.398l-1.066-3.031c3.177 1.836 7.117 3.517 11.83 3.517 7.22 0 11.123-3.943 12.054-7.722v7.236h12.11c7.219 0 10.995-3.442 12.968-7.126l-2.477 7.126h8.945L90.336 28H101l1.572 5.004h9.41L101.697 2.012zM14.5 21l3.338-10.648L21 21h-6.5zM66 25.012V10h2.135c3.043 0 6.365 1.232 6.365 7.506 0 5.557-2.934 7.506-6.339 7.506H66zM92.5 21l3.184-10.521L99 21h-6.5z"></path></svg> </span><span class="loading__logo-text">groceries</span></div></header><nav class="loading__nav-menu"></nav></main></div><script id="tagjs">(function () {
+      var tagjs = document.createElement("script");
+      var s = document.getElementsByTagName("script")[0];
+      tagjs.async = true;
+      tagjs.src = "//s.btstatic.com/tag.js#site=eI7jAuz";
+      s.parentNode.insertBefore(tagjs, s);
+    }());</script><noscript><iframe src="//s.thebrighttag.com/iframe?c=eI7jAuz" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></noscript><script src="//dynamic.criteo.com/js/ld/ld.js?a=44800" defer="defer"></script><script>window.criteo_q = window.criteo_q || [];
+    window.crit_app = {
+      'isPageReady': false,
+    }</script></body></html>

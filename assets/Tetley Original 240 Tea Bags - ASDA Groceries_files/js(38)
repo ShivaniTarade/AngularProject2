@@ -1,0 +1,1 @@
+try { typeof __sto !== "undefined" && typeof __sto.verif === "function" ? __sto.verif("12045257437") : ""; } catch(e) { };
